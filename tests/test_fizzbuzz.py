@@ -5,7 +5,9 @@ from app.fizzbuzz import (
     fizzbuzz2,
 )
 
-from app.fizzbuzz import FizzBuzz
+from app.fizzbuzz import (
+    FizzBuzz,
+)
 
 def test_works_with_1():
     # Arrange
