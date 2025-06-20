@@ -9,7 +9,7 @@ from app.fizzbuzz import (
     FizzBuzz,
 )
 
-def test_works_with_1():
+def works_with_1_test():
     # Arrange
     num = 1
     expected_answer = ["1"]
@@ -24,7 +24,7 @@ def test_works_with_1():
         assert answer[index] == expected_answer[index]
 
 
-def test_works_with_2():
+def works_with_2_test():
     # Arrange
     num = 2
     expected_answer = ["1", "2"]
@@ -39,7 +39,7 @@ def test_works_with_2():
         assert answer[index] == expected_answer[index]
 
 
-def test_works_with_3():
+def works_with_3_test():
     # Arrange
     num = 3
     expected_answer = ["1", "2", "Fizz"]
@@ -54,7 +54,7 @@ def test_works_with_3():
         assert answer[index] == expected_answer[index]
 
 
-def test_works_with_5():
+def works_with_5_test():
     # Arrange
     num = 5
     expected_answer = ["1", "2", "Fizz", "4", "Buzz"]
@@ -69,7 +69,7 @@ def test_works_with_5():
         assert answer[index] == expected_answer[index]
 
 
-def test_works_with_15():
+def works_with_15_test():
     # Arrange
     num = 15
     expected_answer = [
@@ -100,7 +100,7 @@ def test_works_with_15():
         assert answer[index] == expected_answer[index]
 
 
-def test_fizzbuzz1_works_with_1():
+def fizzbuzz1_works_with_1_test():
     # Arrange
     num = 1
     expected_answer = ["1"]
@@ -115,7 +115,7 @@ def test_fizzbuzz1_works_with_1():
         assert answer[index] == expected_answer[index]
 
 
-def test_fizzbuzz1_works_with_3():
+def fizzbuzz1_works_with_3_test():
     # Arrange
     num = 3
     expected_answer = ["1", "2", "Fizz"]
@@ -130,7 +130,7 @@ def test_fizzbuzz1_works_with_3():
         assert answer[index] == expected_answer[index]
 
 
-def test_fizzbuzz1_works_with_5():
+def fizzbuzz1_works_with_5_test():
     # Arrange
     num = 5
     expected_answer = ["1", "2", "Fizz", "4", "Buzz"]
@@ -145,7 +145,7 @@ def test_fizzbuzz1_works_with_5():
         assert answer[index] == expected_answer[index]
 
 
-def test_fizzbuzz1_works_with_15():
+def fizzbuzz1_works_with_15_test():
     # Arrange
     num = 15
     expected_answer = ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "Fizz"]
@@ -160,7 +160,7 @@ def test_fizzbuzz1_works_with_15():
         assert answer[index] == expected_answer[index]
 
 
-def test_fizzbuzz2_works_with_1():
+def fizzbuzz2_works_with_1_test():
     # Arrange
     num = 1
     expected_answer = ["1"]
@@ -175,7 +175,7 @@ def test_fizzbuzz2_works_with_1():
         assert answer[index] == expected_answer[index]
 
 
-def test_fizzbuzz2_works_with_3():
+def fizzbuzz2_works_with_3_test():
     # Arrange
     num = 3
     expected_answer = ["1", "2", "Fizz"]
@@ -190,7 +190,7 @@ def test_fizzbuzz2_works_with_3():
         assert answer[index] == expected_answer[index]
 
 
-def test_fizzbuzz2_works_with_5():
+def fizzbuzz2_works_with_5_test():
     # Arrange
     num = 5
     expected_answer = ["1", "2", "Fizz", "4", "Buzz"]
@@ -205,7 +205,7 @@ def test_fizzbuzz2_works_with_5():
         assert answer[index] == expected_answer[index]
 
 
-def test_fizzbuzz2_works_with_15():
+def fizzbuzz2_works_with_15_test():
     # Arrange
     num = 15
     expected_answer = ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "Fizz"]
@@ -220,7 +220,7 @@ def test_fizzbuzz2_works_with_15():
         assert answer[index] == expected_answer[index]
 
 
-def test_fizzbuzz_class_works_with_1():
+def fizzbuzz_class_works_with_1_test():
     # Arrange
     fb = FizzBuzz()
     num = 1
@@ -236,7 +236,7 @@ def test_fizzbuzz_class_works_with_1():
         assert answer[index] == expected_answer[index]
 
 
-def test_fizzbuzz_class_works_with_3():
+def fizzbuzz_class_works_with_3_test():
     # Arrange
     fb = FizzBuzz()
     num = 3
@@ -252,7 +252,7 @@ def test_fizzbuzz_class_works_with_3():
         assert answer[index] == expected_answer[index]
 
 
-def test_fizzbuzz_class_works_with_5():
+def fizzbuzz_class_works_with_5_test():
     # Arrange
     fb = FizzBuzz()
     num = 5
@@ -268,7 +268,7 @@ def test_fizzbuzz_class_works_with_5():
         assert answer[index] == expected_answer[index]
 
 
-def test_fizzbuzz_class_works_with_15():
+def fizzbuzz_class_works_with_15_test():
     # Arrange
     fb = FizzBuzz()
     num = 15
@@ -282,4 +282,3 @@ def test_fizzbuzz_class_works_with_15():
 
     for index in range(0, len(expected_answer)):
         assert answer[index] == expected_answer[index]
-
